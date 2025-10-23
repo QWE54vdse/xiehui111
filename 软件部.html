@@ -3,8 +3,310 @@
 <head>
     <meta charset="UTF-8">
     <title>电子信息协会软件部</title>
+    <link rel="stylesheet" href="css/header.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all" />
+    <link href="https://bootstrap.ac.cn/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
+    <!-- bootstrap CSS -->
+    <link href="//fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style-starter.css">
 </head>
-<body>
 
+<body>
+<header class="container-fluid" id="header" style="position: absolute">
+    <div class="headerl fixed-top ">
+        <div class="top "></div>
+        <div class="">
+            <a href="./主页.html" class=""><img src="picture/协会标.png" alt="协会标" class="img_1"></a>
+            <a href="./主页.html" class=""><div class="picture_right ">烟台大学电子信息协会</div></a>
+
+            <div class=" right_picture">
+                <button class="btn ce" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <div class="xian" style="margin-bottom: 7px;margin-top: 7px"></div>
+                    <div class="xian" style=""></div>
+                    <div class="xian" style="margin-top: 7px;margin-bottom: 7px"></div></button>
+                <div class="cont-ser-position">
+                    <nav class="navigation">
+                        <div class="theme-switch-wrapper">
+                            <label class="theme-switch" for="checkbox">
+                                <input type="checkbox" id="checkbox">
+                                <div class="mode-container">
+                                    <i class="gg-sun"></i>
+                                    <i class="gg-moon"></i>
+                                </div>
+                            </label>
+                        </div>
+                    </nav>
+                </div>
+                <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel" style="width: 35%; height: 100%;">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <p>Try scrolling the rest of the page to see this option in action.</p>
+                        <div class="container text-center" style="">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="dropdown-toggle " style="font-weight: bold;" data-bs-placement="right" data-bs-toggle="tooltip"
+                                        data-bs-title="部门设置">
+                                        部门设置
+                                    </div>
+                                    <div class="col_2" style="background-color:#fff;">
+                                        <div style="width: auto;height: 2px;background-color: orange;box-sizing: border-box;"></div>
+                                        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                            <button type="button" class="btn "><a href="软件部.html" style="text-decoration: none;color: #7A4EC2;">软件部</a></button>
+                                            <button type="button" class="btn "><a href="硬件部.html" style="text-decoration: none;color: #7A4EC2">硬件部</a></button>
+                                            <button type="button" class="btn "><a href="传媒部.html" style="text-decoration: none;color: #7A4EC2">传媒部</a></button>
+                                            <button type="button" class="btn "><a href="物理部.html" style="text-decoration: none;color: #7A4EC2">物理部</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="dropdown-toggle " style="font-weight: bold;" data-bs-placement="right" data-bs-toggle="tooltip"
+                                        data-bs-title="部门设置">
+                                        资源
+                                    </div>
+                                    <div class="col_2" style="background-color:#fff;">
+                                        <div style="width: auto;height: 2px;background-color: orange;box-sizing: border-box;"></div>
+                                        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                            <button type="button" class="btn "><a href="" style="text-decoration: none;color: #7A4EC2;">专业课</a></button>
+                                            <button type="button" class="btn "><a href="" style="text-decoration: none;color: #7A4EC2">个部门</a></button>
+                                            <button type="button" class="btn "><a href="" style="text-decoration: none;color: #7A4EC2">活动</a></button>
+                                            <button type="button" class="btn "><a href="" style="text-decoration: none;color: #7A4EC2">竞赛</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">交流合作</div>
+                                <a href="走进电协.html" class="col" style=""><div class="col">走进电协</div></a>
+                                <a href="frontend.html" class="col login-link" style="color: #FFFFFF"><div class="col">登录</div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="picture_left">
+            <div class="container text-center container_122">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col">
+                        <div class="dropdown-toggle " style="font-weight: bold;" data-bs-placement="right" data-bs-toggle="tooltip"
+                            data-bs-title="部门设置">
+                            部门设置
+                        </div>
+                        <div class="col_1 " style="background-color:#fff;">
+                            <div style="width: auto;height: 2px;background-color: orange;box-sizing: border-box;"></div>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <button type="button" class="btn "><a href="软件部.html" style="text-decoration: none;color: #7A4EC2;">软件部</a></button>
+                                <button type="button" class="btn "><a href="硬件部.html" style="text-decoration: none;color: #7A4EC2">硬件部</a></button>
+                                <button type="button" class="btn "><a href="传媒部.html" style="text-decoration: none;color: #7A4EC2">传媒部</a></button>
+                                <button type="button" class="btn "><a href="物理部.html" style="text-decoration: none;color: #7A4EC2">物理部</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="dropdown-toggle " style="font-weight: bold;" data-bs-placement="right" data-bs-toggle="tooltip"
+                            data-bs-title="部门设置">
+                            资源
+                        </div>
+                        <div class="col_1 " style="background-color:#fff;">
+                            <div style="width: auto;height: 2px;background-color: orange;box-sizing: border-box;"></div>
+                            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <button type="button" class="btn "><a href="专业课资料.html" style="text-decoration: none;color: #7A4EC2;">专业课资料</a></button>
+                                <button type="button" class="btn "><a href="" style="text-decoration: none;color: #7A4EC2">各部门资料</a></button>
+                                <button type="button" class="btn "><a href="" style="text-decoration: none;color: #7A4EC2">活动资料</a></button>
+                                <button type="button" class="btn "><a href="" style="text-decoration: none;color: #7A4EC2">竞赛资料</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">交流合作</div>
+                    <a href="走进电协.html" class="col" style="color: #FFFFFF"><div class="col">走进电协</div></a>
+                    <a href="frontend.html" class="col login-link" style="color: #FFFFFF"><div class="col">登录</div></a>
+                </div>
+            </div>
+        </div>
+</header>
+<section class="inner-banner" style="background-image:url('assets/images_1/img3.jpg') ">
+    <div class="w3l-breadcrumb py-5">
+        <div class="container py-lg-5 py-sm-4 mt-5">
+            <h4 class="inner-text-title font-weight-bold mb-2">电子信息协会软件部</h4>
+            <ul class="breadcrumbs-custom-path">
+                <li><a href="主页.html">首页</a></li>
+                <li class="active"><span class="fa fa-chevron-right mx-2" aria-hidden="true"></span>软件部部简介</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="w3l-aboutblock py-5">
+    <div class="container py-md-5 py-sm-4">
+        <div class="row">
+            <div class="col-lg-6 left-wthree-img mb-lg-0 mb-md-5 mb-4">
+                <img class="img-fluid img-responsive" src="assets/images/about1.jpg" alt=" ">
+            </div>
+            <div class="col-lg-6 about-right-faq align-self position-relative pl-lg-5">
+                <h6 class="left-text-design">软件部</h6>
+                <h3 class="title-style mb-2 pl-4">软件部介绍
+                </h3>
+                <p class="mt-3 pl-4">软件部主要是基于各种编程语言，通过计算机程序语言的编写实现各种功能,软件部有两个学习方向，一个是嵌入式软件方向，其中单片机可以看作为一个小型的系统，一般通过c语言编写，既可以实现流水灯，日历，简易计算器等小项目又可以实现小车，无人机等大型项目</p>
+                <p class="mt-3 pl-4">;另一个是人工智能方向，一般基于Python语言构建神经网络，无论是最近比较火的ChatGPT还是各类视觉识别工程亦或是手机上各类对话Ai都是以机器学习算法为底层逻辑。</p>
+                <a class="btn btn-style mt-4 ml-4" href="">来加入软件部</a>
+            </div>
+        </div>
+        <div class="row mt-5 pt-lg-4">
+            <div class="col-lg-6 left-wthree-img mb-lg-0 mb-md-5 mb-4 order-lg-last">
+                <img class="img-fluid img-responsive" src="assets/images/about2.jpg" alt=" ">
+            </div>
+            <div class="col-lg-6 about-right-faq align-self position-relative pl-lg-5 order-lg-first">
+                <h6 class="left-text-design">软件部</h6>
+                <h3 class="title-style mb-2 pl-4">Aquarium Maintenance Services
+                </h3>
+                <p class="mt-3 pl-4">Lorem ipsum viverra feugiat. Pellen tesque libero ut justo,
+                    ultrices in ligula. Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.</p>
+                <p class="mt-3 pl-4">Semper at tempufddfel. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Non quae, fugiat.</p>
+                <div class="btn btn-style mt-4 ml-4" href="">来加入软件部</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer-17">
+    <div class="footer17-sub pt-3">
+        <div class="bot" style="z-index: -1">
+            <div class="container py-4">
+                <div class="text-md-start">
+                    <img src="picture/协会标.png" alt="协会标" class="img_2">
+                    <a class="footer-logo" href="主页.html">烟台大学电子信息协会</a>
+                </div>
+            </div>
+
+
+            <div class="copyright text-center">
+                <div class="container">
+                    <p class="copy-footer-29">© 2025/4/24维护更新 版权所有</p>
+                    <p class="copy-footer-29">联系地址: 烟台大学化学馆北109/北112</p>
+                    <p class="copy-footer-29">官方QQ: 3300200063</p>
+                    <div style="color:gray; background-color:gray;height: 2px;width: 1200px;position: relative;bottom:-30px;right: 0px;opacity: 0.7"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+        scrollFunction()
+    };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+        } else {
+            document.getElementById("movetop").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+<!-- //move top -->
+
+<!-- common jquery plugin -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- //common jquery plugin -->
+
+<!-- banner slider -->
+<script src="assets/js/slideshow-slider.js"></script>
+<!-- //banner slider -->
+
+<!-- counter for stats -->
+<script src="assets/js/counter.js"></script>
+<!-- //counter for stats -->
+
+<!-- pets section -->
+<script src="assets/js/owl.carousel.js"></script>
+<script>
+    const clien=document.documentElement.clientWidth
+    // 带防抖的事件处理
+    function debounce(func, delay = 20) {
+        let timeoutId;
+        return function() {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(func, delay);
+        };
+    }
+    // 添加事件监听
+    window.addEventListener('resize', debounce(function() {
+        if (window.innerWidth <= 900) {
+            document.querySelector('.container_122').style.display = 'none';
+        }else {
+            document.querySelector('.container_122').style.display = 'block';
+        }
+    }));
+
+  // 登录状态检查功能
+  document.addEventListener('DOMContentLoaded', function() {
+    // 为所有登录链接添加点击事件
+    const loginLinks = document.querySelectorAll('.login-link');
+    
+    loginLinks.forEach(link => {
+      link.addEventListener('click', function(event) {
+        // 检查localStorage中是否有token
+        const token = localStorage.getItem('token');
+        if (token) {
+          // 如果已登录，提示用户并阻止跳转
+          event.preventDefault();
+          alert('您已经登录，无需再次登录！');
+        }
+        // 如果没有token，则正常跳转
+      });
+    });
+    
+    // 页面加载时检查登录状态
+    checkLoginStatus();
+  });
+  
+  // 检查登录状态并更新页面显示
+  function checkLoginStatus() {
+    const token = localStorage.getItem('token');
+    const loginLinks = document.querySelectorAll('.login-link');
+    
+    if (token) {
+      // 如果已登录，将登录按钮改为用户信息或退出登录
+      loginLinks.forEach(link => {
+        link.innerHTML = '<div class="col">已登录</div>';
+        link.href = 'javascript:void(0);';
+        link.title = '点击退出登录';
+        
+        // 添加退出登录功能
+        link.addEventListener('click', function(event) {
+          event.preventDefault();
+          if (confirm('确定要退出登录吗？')) {
+            localStorage.removeItem('token');
+            location.reload();
+          }
+        });
+      });
+    }
+  }
+</script>
+<script src="assets/js/theme-change.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</script>
 </body>
 </html>
